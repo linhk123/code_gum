@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    height: 90px;
+    border: 1px solid black;
+    background-color: black;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.header .left{
+    width: 50%;
+    height: 90px;
+    border: 1px solid black;
+    display: flex;
+    background-color: darkgray;
+}
+
+.logo, .home, .about, .projects, .contact{
+    width: calc(100% / 5);
+    height: 90px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; /* căn ngang */
+    align-items: center; 
+}
+
+.footer{
+    width:100%;
+    height: 90px;
+    border: 1px solid black;
+    background-color:lightslategrey;
+}
+
+.content .left{
+    width:30%;
+    height: 500px;
+    border: 1px solid black;
+}
+.content .right{
+    width:calc(100% - 30% - 4px);
+    height: 500px;
+    border: 1px solid black;
+}
