@@ -30,3 +30,6 @@ body{
     left:140px;
     visibility:hidden;
 }
+#menu ul li:hover ul{
+    visibility: visible;
+}
