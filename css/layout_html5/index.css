@@ -1,0 +1,34 @@
+.header{
+    height: 90px;
+    border: 1px solid black;
+}
+.nav{
+    height: 90px;
+    border: 1px solid black;
+}
+
+.content{
+    height: 450px;
+    border: 1px solid black;
+    display: flex;
+
+}
+.left{
+    width: 60%;
+    height: 450px;
+    border: 1px solid black;
+}
+.section , .article{
+    height: calc(450px / 2 - 4px);
+    border: 1px solid black;
+}
+.right{
+    width: calc(100% - 60% - 4px);
+    border: 1px solid black;
+
+}
+
+.footer{
+    height: 90px;
+    border: 1px solid black;
+}
